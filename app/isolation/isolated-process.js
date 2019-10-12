@@ -3,8 +3,8 @@
 angular.module('myApp.view1', ['ngRoute'])
 
 .config(['$routeProvider', function($routeProvider) {
-  $routeProvider.when('/view1', {
-    templateUrl: 'view1/isolated-process.html',
+  $routeProvider.when('/isolation', {
+    templateUrl: 'isolation/isolated-process.html',
     controller: 'View1Ctrl'
   });
 }])
