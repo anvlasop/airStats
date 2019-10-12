@@ -12,8 +12,8 @@ angular.module('myApp.view1', ['ngRoute'])
 .controller('IsolateProcessController', ['$scope', function($scope) {
 
   $scope.processUserFile = function () {
-    let file = $scope;
-    alert();
+    let userFile = document.getElementById('userFile').files[0];
+    alert(userFile.name);
   }
 
 }]);

@@ -1,6 +1,6 @@
 <p>This is the partial for view 1.</p>
 
 <div ng-controller = "IsolateProcessController">
-    <input type = "file" user-file-model="userFile"/>
-    <button ng-click = "processUserFile()">Process</button>
+    <input name="userFile" type="file" id="userFile"/>
+    <button ng-click = "processUserFile(userFile)">Process</button>
 </div>
